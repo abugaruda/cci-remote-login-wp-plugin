@@ -1,0 +1,12 @@
+{
+  "apiVersion": 2,
+  "name": "custom/remote-login",
+  "title": "Remote Login",
+  "category": "widgets",
+  "icon": "admin-users",
+  "description": "A block for remote login using a custom REST API.",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "remote-login-block"
+}
