@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Remote Login Plugin
-Description: Permette il login remoto utilizzando un web service e un blocco di login.
-Version: 1.0
-Author: Tuo Nome
-*/
+ * Plugin Name: CCI Remote Login
+ * Description: Permette il login remoto utilizzando un web service e un blocco di login.
+ * GitHub Plugin URI: https://github.com/abugaruda/cci-remote-login-wp-plugin
+ * Primary Branch: main
+ */
 
 // Funzione per interrogare il server remoto
 function remote_login($username, $password, $societyId) {
